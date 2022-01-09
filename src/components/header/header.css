@@ -24,7 +24,7 @@
 
 .headerInfo {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
   flex-direction: row;
   text-align: center;
@@ -33,11 +33,11 @@
 
 .infoContainer {
   width: 50%;
-  margin-right: 50px;
 }
 
 .decoratedTitle {
   font-family: "Merriweather", serif;
+  font-style: italic;
   font-size: 1.1em;
   color: #fff;
 }

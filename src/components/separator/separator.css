@@ -1,0 +1,22 @@
+.separatorContainer {
+  background-color: var(--background-Color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px
+}
+
+.separator {
+  width: 60%;
+  border-bottom: solid 2px white;
+}
+
+.separatorTitle {
+  font-family: "proxima-nova", sans-serif;
+  font-size: 20.5px;
+  text-align: center;
+  color: var(--lightGray);
+  margin-bottom: 30px
+}

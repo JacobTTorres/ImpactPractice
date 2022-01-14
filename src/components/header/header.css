@@ -46,22 +46,22 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .headerInfo{
+  .headerInfo {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 100%
+    width: 100%;
   }
 
-.infoTitle,.freeGuide{
-width: 90vw
+  .infoTitle,
+  .freeGuide {
+    width: 90vw;
   }
-  .logo{
+  .logo {
     height: 7vw;
-    width: 23vw
+    width: 23vw;
   }
 }
-
 
 .infoContainer {
   width: 50%;
@@ -106,9 +106,6 @@ width: 90vw
   display: block;
 }
 
-
-
-
 .infoImage {
   display: flex;
   justify-content: center;
@@ -142,7 +139,7 @@ width: 90vw
 }
 
 @media only screen and (max-width: 767px) {
-  .img2{
-    display: none
+  .img2 {
+    display: none;
   }
 }

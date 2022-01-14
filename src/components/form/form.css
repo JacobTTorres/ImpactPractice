@@ -16,12 +16,32 @@
   margin-right: 40px;
 }
 
+@media only screen and (max-width: 977px) {
+  .formContainerContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .formInfoContent {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
 .formInfoContent {
   width: 506.95px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
+}
+
+@media only screen and (max-width: 1109px) {
+  .formImg {
+    height: 20vw;
+    width: 30vw;
+  }
 }
 
 .formInfo {

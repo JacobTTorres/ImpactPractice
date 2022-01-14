@@ -18,6 +18,7 @@ export default function Form() {
               <img
                 src="https://offers.impactplus.com/hs-fs/hubfs/Landing_Page_(715)/Assets/generate-more-leads-blog.png?width=156&name=generate-more-leads-blog.png"
                 alt=""
+                className="formImg"
               />
             </div>
             <div className="leftForm">
@@ -32,7 +33,7 @@ export default function Form() {
                 <li>The best places to put your calls-to-actions</li>
                 <li>Actionables tips for optimizing the conversion path</li>
                 <li>Ways to leverage social proof on your blog</li>
-                <li>Groth hacks for improving your search ranking</li>
+                <li>Growth hacks for improving your search ranking</li>
                 <li>and more!</li>
               </ul>
             </div>

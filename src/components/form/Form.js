@@ -45,9 +45,10 @@ export default function Form() {
           </div>
         </div>
         <div className="formContent">
-          <div className="form">
+          <fieldset className="form">
+            <legend className="formHeader">GET MY OWN COPY NOW!</legend>
+
             <div className="formWrapper">
-              <h3 className="formHeader">GET MY OWN COPY NOW!</h3>
               <div className="formRow">
                 <div className="nameRow">
                   <form>
@@ -74,8 +75,11 @@ export default function Form() {
                 <div className="email">
                   <form>
                     <h4 className="label">
-                      Email(<a href="">Privacy Policy</a>)
-                      <p className="star">*</p>
+                      Email(
+                      <a href="http://www.impactplus.com/privacy-policy.html">
+                        Privacy Policy
+                      </a>
+                      )<p className="star">*</p>
                     </h4>
                     <label>
                       <input className="emailInput" type="text" name="name" />
@@ -107,6 +111,7 @@ export default function Form() {
               </div>
               <div className="formRow">
                 <div className="subscribe">
+                  <input type="checkbox" className="checkbox"></input>
                   <h4 className="sub">
                     Subscribe me to the IMPACT blog (Daily)
                   </h4>
@@ -120,7 +125,11 @@ export default function Form() {
                   you, based on this information. You may unsubscribe from these
                   communications at any time. For information on how to update
                   your subscription preferences, as well as our privacy
-                  practices, check out our <a href="">Privacy Policy</a>.
+                  practices, check out our{" "}
+                  <a href="https://www.impactbnd.com/privacy-policy?__hstc=118612054.1886c7d75df09aa2b12af958e7b23f42.1641751687080.1642099181320.1642188352630.5&__hssc=118612054.1.1642188352630&__hsfp=3880548604">
+                    Privacy Policy
+                  </a>
+                  .
                 </div>
               </div>
               <div className="formRow">
@@ -131,7 +140,7 @@ export default function Form() {
                 </div>
               </div>
             </div>
-          </div>
+          </fieldset>
         </div>
       </div>
     </section>

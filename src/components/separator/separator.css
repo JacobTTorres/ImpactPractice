@@ -5,7 +5,7 @@
   align-items: center;
   width: 100%;
   padding-top: 40px;
-  padding-bottom: 40px
+  padding-bottom: 40px;
 }
 
 .separator {
@@ -14,9 +14,10 @@
 }
 
 .separatorTitle {
-  font-family: "proxima-nova", sans-serif;
-  font-size: 20.5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
   text-align: center;
-  color: black;
-  margin-bottom: 30px
+  color: rgba(85, 85, 85, 1);
+  margin-bottom: 30px;
 }

@@ -36,7 +36,7 @@
 .leftForm {
   display: flex;
   font-family: "Merriweather", serif;
-  font-weight: bold;
+  font-weight: 300;
   font-size: 16px;
   line-height: 1.75;
   word-wrap: break-word;
@@ -55,6 +55,14 @@
   border: solid var(--lightGray) 1px;
 }
 
+.form::before {
+  content: none;
+}
+
+.form::after {
+  content: none;
+}
+
 .formWrapper {
   display: flex;
   justify-content: center;
@@ -64,7 +72,12 @@
 
 .formHeader {
   color: var(--lightGray);
-  margin-top: -33px;
+  margin-top: 2em;
+  margin-left: 4.5em;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 6px;
+  text-align: center;
 }
 
 .formRow {
@@ -88,12 +101,30 @@
 .label {
   display: flex;
   flex-direction: row;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .subscribe {
   width: 100%;
-  align-self: flex-start;
   padding-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.checkbox {
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  width: 30px;
+}
+
+.sub {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .impactInfo {
@@ -102,7 +133,7 @@
   font-size: 16px !important;
   line-height: 1.75em;
   word-break: break-word;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .nameInput,
@@ -135,6 +166,11 @@
   border: none;
   letter-spacing: 2px;
   font-size: 13px;
-  font-family: proxima-nova;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
+}
+
+.bottomButton:hover {
+  background-color: var(--darkBlue);
+  cursor: pointer;
 }

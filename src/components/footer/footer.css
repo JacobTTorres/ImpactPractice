@@ -1,0 +1,15 @@
+.FooterContent {
+  width: 100%;
+  background-color: rgba(50, 50, 50, 1);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trademark{
+  color: #fff;
+  font-size: 13px;
+  font-weight: 100;
+  font-family: "Montserrat", sans-serif;
+}

@@ -10,6 +10,13 @@
   height: 525px;
 }
 
+@media only screen and (max-width: 1225px) {
+  .headerContent {
+    height: 525;
+    width: 95%;
+  }
+}
+
 .headerTitle {
   width: 100%;
   height: 110px;
@@ -22,15 +29,39 @@
   height: 50px;
   width: 155px;
 }
+@media only screen and (max-width: 1225px) {
+  .logo {
+    height: 4vw;
+    width: 13vw;
+  }
+}
 
 .headerInfo {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
   flex-direction: row;
   text-align: center;
   padding-top: 40px;
 }
+
+@media only screen and (max-width: 767px) {
+  .headerInfo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%
+  }
+
+.infoTitle,.freeGuide{
+width: 90vw
+  }
+  .logo{
+    height: 7vw;
+    width: 23vw
+  }
+}
+
 
 .infoContainer {
   width: 50%;
@@ -75,7 +106,43 @@
   display: block;
 }
 
+
+
+
 .infoImage {
   display: flex;
   justify-content: center;
+}
+
+.img {
+  height: 375px;
+  width: 475px;
+}
+
+.img2 {
+  display: none;
+}
+
+@media only screen and (max-width: 1080px) {
+  .img {
+    width: 25rem;
+  }
+}
+
+@media only screen and (max-width: 945px) {
+  .img {
+    display: none;
+  }
+
+  .img2 {
+    display: block;
+    height: 35vw;
+    width: 28vw;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .img2{
+    display: none
+  }
 }

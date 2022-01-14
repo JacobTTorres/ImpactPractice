@@ -25,10 +25,11 @@ export default function Header() {
             </div>
           </div>
           <div className="infoImage">
-            <img
+            <img className="img"
               src="https://offers.impactplus.com/hs-fs/hub/145335/file-2041646158-png/Impact_Conversion_Collection/Blogging/blog_half-ipad.png"
               alt=""
             />
+            <img className="img2" src="https://offers.impactplus.com/hs-fs/hub/145335/file-2041646163-png/Impact_Conversion_Collection/Blogging/blog-ipad.png"alt="" />
           </div>
         </div>
       </div>

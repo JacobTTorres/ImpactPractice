@@ -1,10 +1,12 @@
-import "./form.css";
+import React from 'react';
+
+import './form.css';
 
 export default function Form() {
   return (
     <section className="formContainer">
       <div className="formContainerContent">
-        {" "}
+        {' '}
         <div className="formInfoContent">
           <div className="formInfo">
             <div className="leftForm">
@@ -126,7 +128,7 @@ export default function Form() {
                   you, based on this information. You may unsubscribe from these
                   communications at any time. For information on how to update
                   your subscription preferences, as well as our privacy
-                  practices, check out our{" "}
+                  practices, check out our{' '}
                   <a href="https://www.impactbnd.com/privacy-policy?__hstc=118612054.1886c7d75df09aa2b12af958e7b23f42.1641751687080.1642099181320.1642188352630.5&__hssc=118612054.1.1642188352630&__hsfp=3880548604">
                     Privacy Policy
                   </a>

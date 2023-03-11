@@ -1,10 +1,11 @@
-import "./app.css";
-import "./index.css";
+import React from 'react';
+import './app.css';
+import './index.css';
 
-import Header from "./components/header/Header";
-import Separator from "./components/separator/Separator";
-import Form from "./components/form/Form"
-import Footer from "./components/footer/Footer"
+import Header from './components/header/Header';
+import Separator from './components/separator/Separator';
+import Form from './components/form/Form';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (

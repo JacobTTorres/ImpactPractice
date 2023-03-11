@@ -1,4 +1,5 @@
-import "./header.css";
+import React from 'react';
+import './header.css';
 
 export default function Header() {
   return (
@@ -15,7 +16,7 @@ export default function Header() {
           <div className="infoContainer">
             <div className="infoTitle">
               <h1 className="decoratedTitle">
-                The IMPACT Conversion Collection{"  "}
+                The IMPACT Conversion Collection{'  '}
               </h1>
             </div>
             <div className="freeGuide">

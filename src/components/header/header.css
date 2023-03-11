@@ -3,18 +3,25 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 100%;
+  height: 55.2vh;
 }
 
 .headerContent {
-  width: 1144.8px;
-  height: 525px;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-@media only screen and (max-width: 1225px) {
-  .headerContent {
-    height: 525;
-    width: 95%;
-  }
+.headerInfo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 70.5%;
 }
 
 .headerTitle {
@@ -29,12 +36,6 @@
   height: 50px;
   width: 155px;
 }
-@media only screen and (max-width: 1225px) {
-  .logo {
-    height: 4vw;
-    width: 13vw;
-  }
-}
 
 .headerInfo {
   display: flex;
@@ -45,36 +46,18 @@
   padding-top: 40px;
 }
 
-@media only screen and (max-width: 767px) {
-  .headerInfo {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 100%;
-  }
-
-  .infoTitle,
-  .freeGuide {
-    width: 90vw;
-  }
-  .logo {
-    height: 7vw;
-    width: 23vw;
-  }
-}
-
 .infoContainer {
   width: 50%;
 }
 
 .decoratedTitle {
-  font-family: "Merriweather", serif;
+  font-family: 'Merriweather', serif;
   font-style: italic;
   font-size: 1.1em;
   color: #fff;
 }
 .decoratedTitle::before {
-  content: "";
+  content: '';
   display: inline-block;
   vertical-align: middle;
   background: #fff;
@@ -86,7 +69,6 @@
 }
 
 .decoratedTitle::after {
-  content: "";
   display: inline-block;
   vertical-align: middle;
   background: #fff;
@@ -98,7 +80,7 @@
 }
 
 .infoInHeader {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 46px;
@@ -118,28 +100,4 @@
 
 .img2 {
   display: none;
-}
-
-@media only screen and (max-width: 1080px) {
-  .img {
-    width: 25rem;
-  }
-}
-
-@media only screen and (max-width: 945px) {
-  .img {
-    display: none;
-  }
-
-  .img2 {
-    display: block;
-    height: 35vw;
-    width: 28vw;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .img2 {
-    display: none;
-  }
 }
